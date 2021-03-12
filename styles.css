@@ -58,6 +58,9 @@ nav {
     display: block;
     background: #252525;
     margin: 0;
+    line-height: 70px;
+    font-size: 20px;
+    border-bottom: 1px solid #f8f1f1;
   }
   .nav-list.active-menu {
     display: block;
