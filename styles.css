@@ -50,13 +50,16 @@ nav {
     border-bottom: 1px solid #f8f1f1;
   }
   .nav-list {
-      position: relative;
-      top: 100px;
-      display: none;
+    position: relative;
+    top: 100px;
+    display: none;
   }
   .nav-item {
     display: block;
     background: #252525;
     margin: 0;
+  }
+  .nav-list.active-menu {
+    display: block;
   }
 }
