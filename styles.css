@@ -19,13 +19,25 @@ nav {
 }
 
 .nav-item {
-    display: inline-block;
-    line-height: 90px;
-    font-size: 25px;
-    margin: 0 10px;
+  display: inline-block;
+  line-height: 90px;
+  font-size: 25px;
+  margin: 0 10px;
 }
 
 .nav-item a {
-    text-decoration: none;
-    color: #f8f1f1;
+  text-decoration: none;
+  color: #f8f1f1;
+}
+
+.toggle-button-container {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.toggle-button-container img {
+  width: 40px;
 }
