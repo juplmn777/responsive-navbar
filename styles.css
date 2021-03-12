@@ -43,5 +43,19 @@ nav {
 }
 
 @media screen and (max-width: 464px) {
-
+  .toggle-button-container {
+    display: block;
+  }
+  nav {
+    border-bottom: 1px solid #f8f1f1;
+  }
+  .nav-list {
+      position: relative;
+      top: 100px;
+  }
+  .nav-item {
+    display: block;
+    background: #252525;
+    margin: 0;
+  }
 }
