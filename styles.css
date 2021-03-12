@@ -52,6 +52,7 @@ nav {
   .nav-list {
       position: relative;
       top: 100px;
+      display: none;
   }
   .nav-item {
     display: block;
